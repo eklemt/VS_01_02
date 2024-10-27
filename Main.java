@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        /*
         TokenReverser reverser = new TokenReverser("Please can you reverse my words");
         reverser.reverse();
         reverser.reverse();
@@ -8,5 +9,12 @@ public class Main {
 
 
         System.out.println(testResult);
+
+         */
+
+        PostfixExpression postfix = new PostfixExpression("1 2 + 3 +");
+
+        System.out.println(postfix.getPostfixValue());
+
     }
 }
