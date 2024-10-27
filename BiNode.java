@@ -1,14 +1,13 @@
 import java.util.Stack;
 
-public class PostfixExpression {
-    private String s;
+public class BiNode {
     private String expression;
-    private Double postfixValue;
+    private BiNode postfixValue;
 
-    public PostfixExpression(String expression) {
+    public BiNode(String expression) {
 
         this.expression = expression;
-        this.postfixValue = this.evaluate();
+        this.postfixValue = this.postfixToTree();
     }
 
     private Double evaluate() {
@@ -50,10 +49,21 @@ public class PostfixExpression {
         return stack.pop();
     }
 
-    public Double getPostfixValue() {
+    public BiNode getPostfixValue() {
         return this.postfixValue;
     }
 
+    public BiNode postfixToTree() {
+        Stack<BiNode> stack = new Stack<>();
+        String[] expressionElements = this.expression.split(" ");
+
+        //split this.expression and save check elements one by one
+        for (int i = 0; i < expressionElements.length; i++) {
 
 
+        }
+
+        //return last element of stack as final value of postfix expression
+        return stack.pop();
+    }
 }

@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad9bd9a3-08b0-4082-97bb-bcc6040d0c03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Praktikum_01_02/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktikum_01_02/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Praktikum_01_02/TokenReverser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktikum_01_02/TokenReverser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostfixExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/PostfixExpression.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -130,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729972684489</updated>
       <workItem from="1729972685605" duration="5563000" />
-      <workItem from="1730028326427" duration="5516000" />
+      <workItem from="1730028326427" duration="6954000" />
     </task>
     <servers />
   </component>
