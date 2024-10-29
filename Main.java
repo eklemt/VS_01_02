@@ -12,7 +12,7 @@ public class Main {
 
          */
 
-        PostfixExpression postfix = new PostfixExpression("1 2 + 3 +");
+        PostfixExpression postfix = new PostfixExpression("3 chsg abs 3 +");
 
         System.out.println(postfix.getPostfixValue());
 
