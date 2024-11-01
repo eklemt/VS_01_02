@@ -16,5 +16,9 @@ public class Main {
 
         System.out.println(postfix.getPostfixValue());
 
+       // infixExpression infix = new infixExpression(" ( 5 * 5 )");
+       // System.out.println(infix.getInfixPostfix());
+
     }
+
 }
